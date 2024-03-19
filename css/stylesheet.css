@@ -1,0 +1,141 @@
+
+h1{
+    font-family: Monomaniac One;
+}
+
+p{
+    font-family: Monda;
+}
+
+body{
+    background-color: #FFC4E2;
+}
+
+.sign-in-form {
+    font-family: Monomaniac One;
+    font-size: 160%;
+    background-color: #C8AEFF;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 250px auto;
+    max-width: 300px;
+    max-height: 150px;
+    padding: 40px;
+}
+
+input{
+    max-width: 600px;
+}
+
+#form-line-two {
+    margin-top: 20px;
+}
+
+.heart-home{
+    scale: 20%;
+    margin-top: -40px;
+    margin-left: 180px;
+}
+
+.heart-home :hover{
+    scale: 120%;
+}
+
+.get-a-life{
+    color: #7B52B4;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    max-height: 200px;
+}
+
+.hearts-home{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    scale: 40%;
+    filter: drop-shadow(0 0 20px rgb(160, 83, 96));
+}
+
+.hearts-home :hover{
+    scale: 105%;
+}
+
+#grid-container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas: 
+    "p p p p p p p p"
+    "img img img img img img img img"
+    "img img img img img img img img"
+    "img img img img img img img img"
+    "img img img img img img img img"
+    "img img img img img img img img"
+    "img img img img img img img img"
+    "b1 b1 b1 b1 b1 b1 b1 b2"
+    ;
+}
+
+.ht{
+    scale: 20%;
+    position: absolute;
+    left: -210px;
+    top: 50px;
+
+}
+
+.ht :hover{
+    scale: 110%;
+    filter: drop-shadow(0 0 10px rgb(129, 129, 129));
+}
+
+p{
+    grid-area: p;
+    background-color: azure;
+    margin: 20px;
+    padding: 10px 40px 40px;
+}
+
+img{
+    grid-area: img;
+    max-height: 650px;
+    margin: 20px;
+    margin-top: 30px;
+    justify-self: center;
+
+
+}
+
+b1{
+    grid-area: b1;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.b1{
+    padding: 5px 10px;
+    font-family: Monda;
+    color: #7B52B4;
+    border-radius: 3px;
+}
+
+
+
+
+b2{
+    grid-area: b2;
+    position: relative;
+    left: 100px;
+
+}
+
+.b2{
+    padding: 5px 10px;
+    font-family: Monda;
+    color: #7B52B4;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 0 #7B52B4;
+    transition: ease-out 0.3s;
+
+}
